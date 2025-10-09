@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  color: rgb(0, 0, 0);
+}
+
+.section1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section1 h1 {
+  font-family: "Michroma", sans-serif;
+  font-size: 4.5rem;
+  font-weight: 800;
+}
+.section1 h1 span {
+  display: inline-block;
+}
+
+.section2 {
+  width: 100%;
+  height: 100%;
+  background: #2a2a2a;
+}
+.section2 #move {
+  background: lawngreen;
+  display: flex;
+  padding: 3rem 0;
+  overflow: hidden;
+}
+.section2 #move .marque {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 0.5rem 1.5rem;
+  transform: translateX(-100%);
+}
+.section2 #move .marque h1 {
+  font-family: "Lexend", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.section2 #move .marque img {
+  width: 4.5rem;
+}/*# sourceMappingURL=style.css.map */
