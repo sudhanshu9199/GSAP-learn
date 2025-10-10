@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+main {
+  width: 100%;
+  min-height: 100%;
+  background: #1e1e1e;
+  padding: 1rem;
+}
+main section {
+  width: 100%;
+  height: 100vh;
+}
+main .box1 {
+  width: 13rem;
+  height: 13rem;
+  background: red;
+  border-radius: 0.5rem;
+}
+main .circle {
+  height: 30rem;
+  width: 30rem;
+  border-radius: 50%;
+  background: linear-gradient(to right bottom, lightblue, rgb(104, 180, 205), rgb(18, 122, 156));
+}
+main .section2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+main .section2 button {
+  padding: 0.5rem 4rem;
+  color: rgb(0, 250, 0);
+  font-size: 2rem;
+  font-weight: 600;
+  border-radius: 3rem;
+  background: linear-gradient(to right bottom, rgb(185, 230, 173), rgb(60, 171, 92), rgb(3, 159, 16));
+  transition: all 0.25s ease;
+}
+main .section2 button:active {
+  transform: scale(0.9);
+}
+main .section3 {
+  background: #4e4e4e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+main .section3 img {
+  width: 12rem;
+  position: absolute;
+}
+main .section4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+main .section4 button {
+  padding: 0.8rem 4rem;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 600;
+  background: transparent;
+  border-radius: 3rem;
+  transition: all 0.25s ease;
+  border: 2.5px solid white;
+}
+main .section4 button:active {
+  transform: scale(0.9);
+}
+main .section4 .box2 {
+  width: 20rem;
+  height: 20rem;
+  background: linear-gradient(to right bottom, rgb(243, 170, 182), rgb(236, 67, 96));
+  border-radius: 0.5rem;
+}/*# sourceMappingURL=index.css.map */
